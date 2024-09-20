@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+    <title>Sambeet Kumar</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-centre justify-between">
+                <div class="left flex justify-right">
+                    <div class="logo"></div>
+                    <div id="navbar" class="nav-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#certificates">Certificates</a>
+                    </div>
+                </div>
+                <div class="right"> 
+                    <button class="btn btn-primary"><a href="#contact">Contact</a></button> 
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+        <div id="home" class="hero flex items-centre justify-between">
+            <div class="left flex-1 justify-center">
+                <img src="./selfpics/frontpic.jpg" />
+            </div>
+            <div class="right flex-1">
+                <h6>SAMBEET KUMAR SWAIN</h6>
+                <h1>
+                    I'm an Undergraduate in<br />
+                    <span>Computer Science and Engineering</span>
+                </h1>
+                <p> 
+                    Welcome to my corner of the internet, where technology and imagination intersects.!!
+                </p>
+                <div><button class="btn btn-secondary"><a href="resume5thsem.pdf" download>DOWNLOAD CV</a></button></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container flex items-centre">
+            <div class="left flex-1 justify-right">
+                <img src="./selfpics/sam-mun.jpg"
+                    height="370px" width="518px" alt="profile pic" />
+            </div>
+            <div class="right flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Sambeet Kumar Swain.</h3>
+                <p>
+                    A driven and passionate engineering student from Brahmapur, Odisha, with a strong foundation in science and technology. Born and raised in Rourkela, I've always been fascinated by the world of coding and innovation.
+
+With a solid academic record in higher secondary education, I've consistently pushed myself to excel.
+
+Currently, I'm pursuing my engineering degree at Silicon University,Bhubaneswar, where I've developed a strong proficiency in frontend development and programming languages. My technical skills include:
+
+- Frontend development 
+- Python programming
+- Java programming
+- MERN stack 
+
+I'm excited to apply my skills and knowledge to real-world problems and collaborate with like-minded individuals. Let's connect and explore opportunities to create something amazing together!
+You can checkout my social handles.
+                </p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/sambeet._/"><img
+                            src="./logos/instalogo.png"
+                            width="40px" /></a>
+                    <a href="https://www.linkedin.com/in/sambeet-kumar-swain-869926249/"><img
+                            src="./logos/linkedin.png"
+                            width="40px" /></a>
+                    <a href="https://x.com/mein_hin_hoon"><img
+                            src="./logos/Twitter-X-Logo.png"
+                            width="40px" /></a>
+                    <a href="https://discord.com/channels/@me"><img
+                            src="./logos/discordlogo.png"
+                            width="40px" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="services-head">Projects</h1>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./projects/jarvis.png" alt="jarvis chatbot" />
+                    <h2>Simple Chatbot</h2>
+                    <p>A simple virtual assistant who can take voice commands!
+                        <b>[HTML,CSS,JAVASCRIPT]</b>
+                    </p>
+                    <a href="https://github.com/sambeet10/JARVIS-bot" class="btn btn-primary">GitHub</a>
+                </div>
+    
+                <div class="card">
+                    <img src="./projects/your places.png" alt="Your places" />
+                    <h2>YOUR PLACES</h2>
+                    <p>An app where you can describe about the places you have visited.
+                        <br>
+                        <b>[MERN]</b>
+                    </p>
+                    <a href="https://github.com/sambeet10/place_mern" class="btn btn-primary">GitHub</a>
+                </div>
+    
+                <div class="card">
+                    <img src="./projects/stone paper scissor.png" alt="stone paper scissor" />
+                    <h2>Stone Paper Scissor</h2>
+                    <p>A simple stone, paper and scissor game.
+                        <br>
+                        <b>[HTML,CSS,JAVASCRIPT]</b>
+                    </p>
+                    <a href="https://github.com/sambeet10/stone-paper-scissor" class="btn btn-primary">GitHub</a>
+                </div>
+                
+                <div class="card">
+                    <img src="./projects/portfolio.png" alt="Portfolio" />
+                    <h2>Portfolio</h2>
+                    <p>A simple Portfolio website.
+                        <br>
+                        <b>[HTML,CSS,JAVASCRIPT]</b>
+                    </p>
+                    <a href="https://github.com/sambeet10/sam_portfolio" class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="certificates" class="certificates">
+      <div class="container">
+          <h1 class="certificates-head">Certificates</h1>
+          <div class="certificate-grid">
+              <!-- Certificate 1 -->
+              <div class="certificate-card" onclick="openModal('certificate1')">
+                  <img src="./certificates/merncert.jpg" alt="Certificate 1" />
+                  <h3>MERN Fullstack</h3>
+              </div>
+              <!-- Certificate 2 -->
+              <div class="certificate-card" onclick="openModal('certificate2')">
+                  <img src="./certificates/pythoncert.jpg" alt="Certificate 2" />
+                  <h3>PYTHON Programming</h3>
+              </div>
+              <!-- Certificate 3 -->
+              <div class="certificate-card" onclick="openModal('certificate3')">
+                  <img src="./certificates/reactbootcampcert.jpg" alt="Certificate 3" />
+                  <h3>REACT bootcamp</h3>
+              </div>
+              <!-- Certificate 4 -->
+              <div class="certificate-card" onclick="openModal('certificate4')">
+                  <img src="./certificates/muncertificate.jpg" alt="Certificate 4" />
+                  <h3>SITMUN'24 OC</h3>
+              </div>
+              <!-- Certificate 5 -->
+              <div class="certificate-card" onclick="openModal('certificate5')">
+                  <img src="./certificates/mentorcert.jpg" alt="Certificate 5" />
+                  <h3>Student Mentor</h3>
+              </div>
+              <!--certificate 6-->
+              <div class="certificate-card" onclick="openModal('certificate6')">
+                <img src="./certificates/azurecert.jpg" alt="Certificate 6" />
+                <h3>Microsoft AZURE</h3>
+            </div>
+          </div>
+      </div>
+  
+      <!-- Modal for Certificate 1 -->
+      <div id="certificate1" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('certificate1')">&times;</span>
+              <img src="./certificates/merncert.jpg" alt="Certificate 1" />
+          </div>
+      </div>
+  
+      <!-- Modal for Certificate 2 -->
+      <div id="certificate2" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('certificate2')">&times;</span>
+              <img src="./certificates/pythoncert.jpg" alt="Certificate 2" />
+          </div>
+      </div>
+  
+      <!-- Modal for Certificate 3 -->
+      <div id="certificate3" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('certificate3')">&times;</span>
+              <img src="./certificates/reactbootcampcert.jpg" alt="Certificate 3" />
+          </div>
+      </div>
+  
+      <!-- Modal for Certificate 4 -->
+      <div id="certificate4" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('certificate4')">&times;</span>
+              <img src="./certificates/muncertificate.jpg" alt="Certificate 4" />
+          </div>
+      </div>
+  
+      <!-- Modal for Certificate 5 -->
+      <div id="certificate5" class="modal">
+          <div class="modal-content">
+              <span class="close" onclick="closeModal('certificate5')">&times;</span>
+              <img src="./certificates/mentorcert.jpg" alt="Certificate 5" />
+          </div>
+      </div>
+
+      <div id="certificate6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('certificate6')">&times;</span>
+            <img src="./certificates/azurecert.jpg" alt="Certificate 6" />
+        </div>
+    </div>
+  </section>
+  
+      <section class="contact" id="contact">
+        <div class="container">
+          <h1 class="contact-head">Contact Me</h1>
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:sambeetkumars@gmail.com">sambeetkumars@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+916372676766">6372676766</a></p>
+          </div>
+          <div class="copyright">
+            <p>&copy; 2024 Sambeet Swain. All Rights Reserved.</p>
+          </div>
+        </div>
+      </section>
+      
+      <script src="logics.js"></script>      
+
+</body>
+
+</html>
